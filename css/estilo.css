@@ -226,20 +226,27 @@ footer {
   .nav-responsive {
     display: block;
   }
-  nav.responsive {
+ #nav {
     display: block;
     position: absolute;
     right: 0;
     top: 75px;
-    background-color: #252a2e;
+    background-color:#764700;
     width: 180px;
   }
-  nav.responsive ul {
+  #nav ul {
     display: block !important;
   }
-  nav.responsive ul li {
+ #nav ul li {
     border-bottom: 1px solid #fff;
     padding: 10px 0;
+  }
+  .selected-page{
+    background-color:#764700;
+  }
+  #nav a {
+    color: white;
+    font-size:12px;
   }
   .caja {
     flex-direction: column;
