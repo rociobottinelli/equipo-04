@@ -6,10 +6,12 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   /* me permite deslizar cuando hago clic en los links del menu */
   scroll-behavior: smooth;
 }
+
 /* MENU */
 .contenedor-header {
   background: #f5eac2;
@@ -19,6 +21,7 @@ html {
   left: 0;
   z-index: 99;
 }
+
 .contenedor-header header {
   /* max-width: 1100px; */
   margin: auto;
@@ -27,21 +30,25 @@ html {
   align-items: center;
   padding: 15px 20px;
 }
+
 .contenedor-header header .logo a {
   letter-spacing: 7px;
   font-size: 32px;
   color: #764700;
   text-decoration: none;
 }
+
 .selected-page {
   background-color: white;
   border-radius: 20px;
   padding: 280px;
 }
+
 .contenedor-header header ul {
   display: flex;
   list-style: none;
 }
+
 .contenedor-header header nav ul li a {
   text-align: none;
   color: black;
@@ -50,9 +57,11 @@ html {
   transition: 0.5s;
   text-decoration: none;
 }
+
 .contenedor-header header nav ul li a:hover {
   color: rgb(255, 102, 0);
 }
+
 .nav-responsive {
   background-color: #764700;
   color: #fff;
@@ -70,12 +79,13 @@ html {
   display: flex;
   align-items: center;
 }
+
 .titulo-inicio {
-    background-color: #764700;
-    padding: 20px;
-    border-radius: 10px 10px 0 0;
-    
+  background-color: #764700;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
 }
+
 .inicio .contenido-banner {
   background-color: #f5eac2;
   max-width: 450px;
@@ -93,24 +103,28 @@ html {
   color: white;
   font-weight: 500;
 }
+
 .inicio .contenido-banner h2 {
   margin-top: 15px;
   font-weight: normal;
   font-size: 17px;
 }
+
 .titulo {
   text-align: center;
   width: 100%;
   height: 25%;
 }
+
 .medio {
   width: 100%;
   height: 50%;
   padding: 0px 20px;
   margin: 30px;
 }
+
 .abajo {
-    margin: 30px;
+  margin: 30px;
   margin-top: 15px;
   width: 100%;
   height: 25%;
@@ -124,10 +138,11 @@ html {
   color: black;
   padding: 60px 20px;
 }
-.nosotros .contenido-seccion {
 
+.nosotros .contenido-seccion {
   margin: auto;
 }
+
 .nosotros h2 {
   font-size: 30px;
   text-align: center;
@@ -135,8 +150,9 @@ html {
   color: #764700;
   font-weight: 600;
 }
+
 .nosotros .integrantes {
-  background-color: #F5EAC2;
+  background-color: #f5eac2;
   width: 300px;
   margin: 20px;
   padding: 30px 30px 70px;
@@ -148,24 +164,29 @@ html {
   text-decoration: underline;
   gap: 10px;
 }
+
 .nosotros .fotointegrante {
   width: 100%;
   box-sizing: border-box;
 }
+
 .NombreIntegrante {
-    text-decoration: none;
-    font-size: 26px;
-    font-weight: 600;
-    color: #764700;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 600;
+  color: #764700;
 }
+
 .nosotros .caja {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 .progreso {
   position: relative;
 }
+
 .progreso .h1 {
   width: 50px;
   height: 50px;
@@ -176,22 +197,27 @@ html {
   left: 50%;
   margin: -25px 0 0 -25px;
 }
-.h1-construccion{
-    font-weight: 600;
-    color: #764700;
+
+.h1-construccion {
+  font-weight: 600;
+  color: #764700;
 }
+
 .logo-proyecto {
-    max-width: 100px ;
+  max-width: 100px;
 }
-.cont-descr-proyecto{
-    padding: 20px;
-    margin: 10px;
+
+.cont-descr-proyecto {
+  padding: 20px;
+  margin: 10px;
 }
-.tit-proyecto{
-    font-weight: 600;
-    color: white;
-    font-size: 25px;
+
+.tit-proyecto {
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
 }
+
 /* FOOTER*/
 footer {
   display: flex;
@@ -210,12 +236,17 @@ footer {
   align-items: center;
   color: whitesmoke;
 }
+
 .titulo-enconstruccion {
-    color:#764700;
-    margin: 0 auto;
-    font-size: 40px;
-    font-weight: 600;
-    text-align: center;
+  color: #764700;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  display: none;
 }
 
 /* SECCION RESPONSIVE */
@@ -223,42 +254,90 @@ footer {
   nav {
     display: none;
   }
+
   .nav-responsive {
     display: block;
   }
- #nav {
+
+  #nav {
     display: block;
     position: absolute;
     right: 0;
     top: 75px;
-    background-color:#764700;
+    background-color: #764700;
     width: 180px;
   }
+
   #nav ul {
     display: block !important;
   }
- #nav ul li {
+
+  #nav ul li {
     border-bottom: 1px solid #fff;
     padding: 10px 0;
   }
-  .selected-page{
-    background-color:#764700;
+
+  .selected-page {
+    background-color: #764700;
   }
+
   #nav a {
     color: white;
-    font-size:12px;
+    font-size: 12px;
   }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  .nav-responsive {
+    display: block;
+    font-size: 23px;
+    cursor: pointer;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  input:checked~ul {
+    display: block;
+  }
+
+  #menu-toggle:checked~#nav {
+    display: block;
+  }
+
+  #nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nav li {
+    margin: 10px 0;
+  }
+
+  #nav a {
+    color: white;
+    text-decoration: none;
+  }
+
   .caja {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  footer{
+
+  footer {
     font-size: 14px;
   }
 }
+
 @media screen and (max-width: 1400px) {
-    footer{
-        position: relative;
-    }
+  footer {
+    position: relative;
+  }
 }
