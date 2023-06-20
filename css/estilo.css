@@ -14,7 +14,7 @@ html {
 
 /* MENU */
 .contenedor-header {
-  background: #f5eac2;
+  background: rgba(194, 224, 245, 1);
   position: fixed;
   width: 100%;
   top: 0;
@@ -34,7 +34,7 @@ html {
 .contenedor-header header .logo a {
   letter-spacing: 7px;
   font-size: 32px;
-  color: #764700;
+  color: rgba(0, 75, 118, 1);
   text-decoration: none;
 }
 
@@ -59,11 +59,13 @@ html {
 }
 
 .contenedor-header header nav ul li a:hover {
-  color: rgb(255, 102, 0);
+  color: rgba(0, 75, 118, 1);
+
 }
 
 .nav-responsive {
-  background-color: #764700;
+  background-color: rgba(0, 75, 118, 1);
+
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -81,13 +83,14 @@ html {
 }
 
 .titulo-inicio {
-  background-color: #764700;
+  background-color: rgba(0, 75, 118, 1);
+
   padding: 20px;
   border-radius: 10px 10px 0 0;
 }
 
 .inicio .contenido-banner {
-  background-color: #f5eac2;
+  background-color: rgba(194, 224, 245, 1);
   max-width: 450px;
   display: flex;
   flex-direction: column;
@@ -147,12 +150,13 @@ html {
   font-size: 30px;
   text-align: center;
   padding: 40px 0;
-  color: #764700;
+  color: rgba(0, 75, 118, 1);
+
   font-weight: 600;
 }
 
 .nosotros .integrantes {
-  background-color: #f5eac2;
+  background-color:rgba(194, 224, 245, 1);
   width: 300px;
   margin: 20px;
   padding: 30px 30px 70px;
@@ -174,7 +178,8 @@ html {
   text-decoration: none;
   font-size: 26px;
   font-weight: 600;
-  color: #764700;
+  color: rgba(0, 75, 118, 1);
+
 }
 
 .nosotros .caja {
@@ -200,7 +205,8 @@ html {
 
 .h1-construccion {
   font-weight: 600;
-  color: #764700;
+  color: rgba(0, 75, 118, 1);
+
 }
 
 .logo-proyecto {
@@ -227,18 +233,22 @@ footer {
   left: 0;
   bottom: 0;
   position: absolute;
-  background: #764700;
-  padding: 1em 0;
+  background: rgba(0, 75, 118, 1);
+  padding: 1em ;
   font-size: 20px;
   font-weight: normal;
   padding-right: 20px;
   justify-content: end;
   align-items: center;
   color: whitesmoke;
+  display: flex;
+  justify-content:space-between;
+  
 }
 
 .titulo-enconstruccion {
-  color: #764700;
+  color: rgba(0, 75, 118, 1);
+
   margin: 0 auto;
   font-size: 40px;
   font-weight: 600;
@@ -264,7 +274,8 @@ input[type="checkbox"] {
     position: absolute;
     right: 0;
     top: 75px;
-    background-color: #764700;
+    background-color: rgba(0, 75, 118, 1);
+
     width: 180px;
   }
 
@@ -278,7 +289,8 @@ input[type="checkbox"] {
   }
 
   .selected-page {
-    background-color: #764700;
+    background-color: rgba(194, 224, 245, 1);
+
   }
 
   #nav a {
@@ -333,6 +345,10 @@ input[type="checkbox"] {
 
   footer {
     font-size: 14px;
+    background: rgba(0, 75, 118, 1);
+
+
+
   }
 }
 
